@@ -60,12 +60,15 @@ p{
 
 .resume-container{
     display: grid;
-    border: solid;
+    /* border: solid; */
 }
 
 .resume-left{
     display: flex;
     flex-direction: column;
+    background-color: rgb(236, 243, 243);
+    padding-top: 10px;
+    padding-left: 15px;
     /* border: solid;
     border-color: blue; */
 }
@@ -73,6 +76,9 @@ p{
 .resume-right{
     display: flex;
     flex-direction: column;
+    background-color: rgb(236, 243, 243);
+    padding-left: 20px;
+    padding-top: 10px;
     /* border: solid;
     border-color: red; */
 }
@@ -95,6 +101,10 @@ ul{
     /* border: solid;
     border-color: green; */
     color: #373a3b;
+    padding-top: 10px;
+
+    
+    
 }
 .resume-left > *{
     padding-bottom: 8%;
